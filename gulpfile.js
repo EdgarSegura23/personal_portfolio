@@ -8,8 +8,8 @@ const sass = gulpSass(dartSass);
 
 //TODO: Function Definition: 
 
-//* SASS Function definition
-export function sass( done ) {
+//* CSS Function definition
+export function css( done ) {
     src('src/scss/app.scss')
     .pipe( sass().on( 'error', sass.logError ) )
     .pipe( dest('build/css') )
@@ -18,5 +18,5 @@ export function sass( done ) {
 
 //* dev Function definition
 export function dev() {
-    watch ('src/scss/**/*.scss', sass )
+    watch ('src/scss/**/*.scss', css )
 }

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Creation of Personal Portfolio",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "gulp dev"
   },
