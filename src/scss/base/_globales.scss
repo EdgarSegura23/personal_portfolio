@@ -1,0 +1,68 @@
+@use 'variables' as v;
+
+@import url('/font/Montserrat-VariableFont_wght.ttf');
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-padding-top: 0rem;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: v.$main_font;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: v.$text;
+  font-size: 2rem;
+}
+
+p{
+  color: v.$text;
+  line-height: 1.908;
+}
+
+a {
+  text-decoration: none;
+}
+h1, h2, h3 {
+  margin: 0 0 5rem 0;
+  line-height: 1.15;
+}
+h1 {
+  font-size: v.$fs_heading1;
+}
+h2 {
+  font-size: v.$fs_heading2;
+}
+h3 {
+  font-size: v.$fs_heading3;
+}
+
+h4 {
+  font-size: v.$fs_heading4;
+}
+
+.text-large {
+  font-size: v.$fs_textLarge;
+  line-height: 2.364;
+}
+
+.small-text {
+  font-size: v.$fs_smallText;
+  line-height: 2.2;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+body > section {
+  padding: 10rem 0
+}

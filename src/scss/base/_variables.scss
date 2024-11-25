@@ -1,0 +1,32 @@
+// Main Font
+$main_font:"Montserrat", serif;
+
+//Font Size
+$fs_heading1: 5.61rem;
+$fs_heading2: 4.209rem;
+$fs_heading3: 3.157rem;
+$fs_heading4: 2.369rem;
+$fs_textLarge: 1.777rem;
+$fs_normalText: 1414rem;
+$fs_smallText: 1rem;
+
+//Font Weight
+$fw_bold:700;
+$fw_semibold:600;
+$fw_normal:400;
+// Colors
+$primary: #222222;
+$secondary: #1E90FF;
+$background:#FFFFFF;
+$text:#000000;
+$secondary-text:#FFFFFF;
+$accent: #005CBB;
+$secondary_background: #999999;
+$success: #50C878;
+$error:#DC143C;
+
+// Media Queries
+$phone:480px;
+$tablet: 768px;
+$desktop: 1200px;
+$desktopXL:1400px;
