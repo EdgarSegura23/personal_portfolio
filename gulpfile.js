@@ -19,7 +19,7 @@ export function copyBoxiconsCss(done) {
 //* CSS Function definition
 export function css( done ) {
     src('src/scss/app.scss')
-        .pipe( sass() )
+        .pipe( sass().on('error', sass.logError) )
         .pipe( dest('build/css') )
     done()
 }
