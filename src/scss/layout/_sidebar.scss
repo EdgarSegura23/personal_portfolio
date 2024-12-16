@@ -10,7 +10,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    transition: width ease-in 0.3s;
 }
 
 .header{
@@ -22,6 +23,7 @@
         margin: 2.4rem auto;
     }
 }
+
 
 .sidebar__button{
     display: flex;
@@ -39,11 +41,13 @@
         background-color: v.$primary;
         color: v.$secondary-text;
         font-size: v.$fs_textLarge;
+        transition: width ease-in 0.3s;
         &:hover{
             cursor: pointer;
         }
     }
 }
+
 
 .sidebar__photo{
     width: 100%;
@@ -57,11 +61,14 @@
         height: 20rem;
         border-radius: 50%;
         img{
-            width: 20rem;
-            height: 20rem;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: width ease-in 0.3s;
         }
     }
 }
+
 
 .sidebar__navegation{
     display: flex;
@@ -69,14 +76,17 @@
     justify-content: center;
     gap: 2rem;
     margin: 0 0 2rem 0;
+    transition: width ease-in 0.3s;
 
     a{
+        position: relative;
         display: flex;
         align-items: center;
         gap: 0.5rem;
         padding: 2rem;
         font-size: v.$fs_textLarge;
         color: v.$secondary-text;
+        transition: width ease-in 0.3s;
         &:hover{
             cursor: pointer;
             background-color: rgba(v.$secondary, 0.4);
@@ -84,10 +94,58 @@
     }
 }
 
+
 .sidebar__social-media{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+    transition: width ease-in 0.3s;
+}
+
+
+.sidebar-collapse{
+    width: 7rem;
+    justify-content: space-around;
+    transition: width ease-out 0.3s;
+
+    .sidebar__button{
+        transition: width ease-out 0.3s;
+        span{display: none;}
+    }
+    .photo-container{
+        width: 6.4rem;
+        height: 6.4rem;
+    }
+
+    h3{
+        display: none;
+        transition: width ease-out 0.3s;
+    }
+
+    .sidebar__navegation{
+        a{
+            transition: width ease-out 0.3s;
+
+            span{display: none}
+
+            box-icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 3.2rem;
+                height: 3.2rem;
+                font-size: 2.4rem;
+                
+            }
+        }
+    }
+
+    .sidebar__social-media{
+        flex-direction: column;
+        gap: 2rem;
+        transition: width ease-out 0.3s;
+    }
 }

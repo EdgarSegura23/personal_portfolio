@@ -1,0 +1,1 @@
+"use strict";function sidebarTrigger(){const e=document.querySelector(".sidebar");document.querySelector(".sidebar__button button").addEventListener("click",(()=>{e.classList.toggle("sidebar-collapse")}))}document.addEventListener("DOMContentLoaded",(()=>{sidebarTrigger()}));
