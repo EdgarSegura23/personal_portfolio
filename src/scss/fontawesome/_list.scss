@@ -1,0 +1,20 @@
+// icons in a list
+// -------------------------
+
+@use 'variables' as v;
+
+.#{v.$fa-css-prefix}-ul {
+  list-style-type: none;
+  margin-left: var(--#{v.$fa-css-prefix}-li-margin, #{v.$fa-li-margin});
+  padding-left: 0;
+
+  > li { position: relative; }
+}
+
+.#{v.$fa-css-prefix}-li {
+  left: calc(-1 * var(--#{v.$fa-css-prefix}-li-width, #{v.$fa-li-width}));
+  position: absolute;
+  text-align: center;
+  width: var(--#{v.$fa-css-prefix}-li-width, #{v.$fa-li-width});
+  line-height: inherit;
+}

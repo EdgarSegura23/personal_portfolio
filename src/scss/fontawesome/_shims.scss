@@ -1,0 +1,1580 @@
+@use 'variables' as v;
+
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-glass { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-martini-glass-empty }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-envelope-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-envelope-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-envelope }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-star-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-star-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-star }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-remove { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-xmark }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-close { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-xmark }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-gear { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-gear }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-trash-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-trash-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-trash-can }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-home { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-house }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-clock-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-clock-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-clock }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-arrow-circle-o-down {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-arrow-circle-o-down { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-down }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-arrow-circle-o-up {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-arrow-circle-o-up { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-up }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-play-circle-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-play-circle-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-play }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-repeat { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-arrow-rotate-right }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-rotate-right { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-arrow-rotate-right }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-refresh { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-arrows-rotate }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-list-alt {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-list-alt { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-rectangle-list }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-dedent { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-outdent }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-video-camera { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-video }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-picture-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-picture-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-image }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-photo {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-photo { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-image }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-image {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-image { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-image }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-map-marker { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-location-dot }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pencil-square-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pencil-square-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-pen-to-square }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-edit {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-edit { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-pen-to-square }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-share-square-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-share-from-square }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-check-square-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-check-square-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-check }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-arrows { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-up-down-left-right }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-times-circle-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-times-circle-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-xmark }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-check-circle-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-check-circle-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-check }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-mail-forward { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-share }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-expand { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-up-right-and-down-left-from-center }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-compress { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-down-left-and-up-right-to-center }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-eye {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-eye-slash {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-warning { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-triangle-exclamation }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-calendar { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-calendar-days }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-arrows-v { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-up-down }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-arrows-h { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-left-right }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bar-chart { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-chart-column }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bar-chart-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-chart-column }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-twitter-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-twitter-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-twitter }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-facebook-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-facebook-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-facebook }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-gears { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-gears }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-thumbs-o-up {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-thumbs-o-up { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-thumbs-up }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-thumbs-o-down {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-thumbs-o-down { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-thumbs-down }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-heart-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-heart-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-heart }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sign-out { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-right-from-bracket }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-linkedin-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-linkedin-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-linkedin }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-thumb-tack { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-thumbtack }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-external-link { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-up-right-from-square }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sign-in { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-right-to-bracket }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-github-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-github-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-github }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-lemon-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-lemon-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-lemon }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-square-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-square-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bookmark-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bookmark-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-bookmark }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-twitter {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-facebook {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-facebook { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-facebook-f }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-facebook-f {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-facebook-f { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-facebook-f }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-github {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-credit-card {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-feed { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-rss }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hdd-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hdd-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hard-drive }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-o-right {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-o-right { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand-point-right }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-o-left {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-o-left { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand-point-left }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-o-up {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-o-up { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand-point-up }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-o-down {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-o-down { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand-point-down }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-globe { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-earth-americas }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-tasks { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-bars-progress }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-arrows-alt { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-maximize }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-group { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-users }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-chain { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-link }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cut { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-scissors }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-files-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-files-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-copy }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-floppy-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-floppy-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-floppy-disk }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-save {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-save { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-floppy-disk }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-navicon { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-bars }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-reorder { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-bars }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-magic { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-wand-magic-sparkles }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pinterest {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pinterest-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pinterest-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-pinterest }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-google-plus-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-google-plus-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-google-plus }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-google-plus {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-google-plus { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-google-plus-g }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-money { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-money-bill-1 }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-unsorted { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-sort }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sort-desc { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-sort-down }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sort-asc { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-sort-up }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-linkedin {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-linkedin { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-linkedin-in }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-rotate-left { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-arrow-rotate-left }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-legal { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-gavel }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-tachometer { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-gauge-high }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-dashboard { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-gauge-high }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-comment-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-comment-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-comment }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-comments-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-comments-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-comments }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-flash { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-bolt }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-clipboard { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-paste }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-lightbulb-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-lightbulb-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-lightbulb }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-exchange { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-right-left }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cloud-download { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-cloud-arrow-down }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cloud-upload { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-cloud-arrow-up }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bell-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bell-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-bell }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cutlery { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-utensils }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-text-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-text-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-lines }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-building-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-building-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-building }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hospital-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hospital-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hospital }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-tablet { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-tablet-screen-button }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-mobile { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-mobile-screen-button }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-mobile-phone { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-mobile-screen-button }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-circle-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-circle-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-mail-reply { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-reply }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-github-alt {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-folder-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-folder-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-folder }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-folder-open-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-folder-open-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-folder-open }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-smile-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-smile-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-face-smile }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-frown-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-frown-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-face-frown }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-meh-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-meh-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-face-meh }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-keyboard-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-keyboard-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-keyboard }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-flag-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-flag-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-flag }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-mail-reply-all { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-reply-all }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-star-half-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-star-half-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-star-half-stroke }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-star-half-empty {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-star-half-empty { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-star-half-stroke }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-star-half-full {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-star-half-full { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-star-half-stroke }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-code-fork { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-code-branch }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-chain-broken { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-link-slash }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-unlink { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-link-slash }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-calendar-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-calendar-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-calendar }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-maxcdn {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-html5 {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-css3 {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-unlock-alt { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-unlock }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-minus-square-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-minus-square-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-minus }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-level-up { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-turn-up }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-level-down { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-turn-down }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pencil-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-pen }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-external-link-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-up-right }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-compass {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-caret-square-o-down {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-caret-square-o-down { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-caret-down }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-toggle-down {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-toggle-down { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-caret-down }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-caret-square-o-up {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-caret-square-o-up { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-caret-up }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-toggle-up {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-toggle-up { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-caret-up }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-caret-square-o-right {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-caret-square-o-right { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-caret-right }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-toggle-right {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-toggle-right { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-caret-right }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-eur { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-euro-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-euro { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-euro-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-gbp { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-sterling-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-usd { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-dollar-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-dollar { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-dollar-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-inr { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-indian-rupee-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-rupee { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-indian-rupee-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-jpy { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-yen-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cny { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-yen-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-rmb { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-yen-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-yen { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-yen-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-rub { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-ruble-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-ruble { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-ruble-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-rouble { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-ruble-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-krw { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-won-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-won { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-won-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-btc {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bitcoin {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bitcoin { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-btc }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-text { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-lines }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sort-alpha-asc { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-arrow-down-a-z }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sort-alpha-desc { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-arrow-down-z-a }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sort-amount-asc { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-arrow-down-short-wide }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sort-amount-desc { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-arrow-down-wide-short }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sort-numeric-asc { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-arrow-down-1-9 }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sort-numeric-desc { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-arrow-down-9-1 }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-youtube-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-youtube-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-youtube }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-youtube {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-xing {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-xing-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-xing-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-xing }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-youtube-play {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-youtube-play { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-youtube }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-dropbox {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-stack-overflow {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-instagram {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-flickr {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-adn {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bitbucket {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bitbucket-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bitbucket-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-bitbucket }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-tumblr {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-tumblr-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-tumblr-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-tumblr }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-long-arrow-down { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-down-long }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-long-arrow-up { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-up-long }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-long-arrow-left { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-left-long }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-long-arrow-right { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-right-long }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-apple {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-windows {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-android {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-linux {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-dribbble {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-skype {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-foursquare {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-trello {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-gratipay {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-gittip {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-gittip { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-gratipay }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sun-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sun-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-sun }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-moon-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-moon-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-moon }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-vk {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-weibo {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-renren {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pagelines {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-stack-exchange {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-arrow-circle-o-right {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-arrow-circle-o-right { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-right }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-arrow-circle-o-left {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-arrow-circle-o-left { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-left }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-caret-square-o-left {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-caret-square-o-left { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-caret-left }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-toggle-left {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-toggle-left { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-caret-left }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-dot-circle-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-dot-circle-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-dot }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-vimeo-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-vimeo-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-vimeo }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-try { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-turkish-lira-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-turkish-lira { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-turkish-lira-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-plus-square-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-plus-square-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-plus }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-slack {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-wordpress {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-openid {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-institution { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-building-columns }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bank { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-building-columns }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-mortar-board { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-graduation-cap }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-yahoo {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-google {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-reddit {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-reddit-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-reddit-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-reddit }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-stumbleupon-circle {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-stumbleupon {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-delicious {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-digg {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pied-piper-pp {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pied-piper-alt {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-drupal {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-joomla {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-behance {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-behance-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-behance-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-behance }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-steam {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-steam-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-steam-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-steam }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-automobile { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-car }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cab { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-taxi }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-spotify {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-deviantart {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-soundcloud {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-pdf-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-pdf-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-pdf }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-word-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-word-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-word }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-excel-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-excel-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-excel }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-powerpoint-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-powerpoint-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-powerpoint }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-image-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-image-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-image }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-photo-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-photo-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-image }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-picture-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-picture-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-image }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-archive-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-archive-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-zipper }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-zip-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-zip-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-zipper }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-audio-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-audio-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-audio }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-sound-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-sound-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-audio }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-video-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-video-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-video }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-movie-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-movie-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-video }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-code-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-file-code-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-file-code }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-vine {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-codepen {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-jsfiddle {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-life-bouy { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-life-ring }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-life-buoy { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-life-ring }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-life-saver { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-life-ring }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-support { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-life-ring }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-circle-o-notch { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-notch }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-rebel {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-ra {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-ra { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-rebel }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-resistance {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-resistance { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-rebel }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-empire {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-ge {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-ge { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-empire }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-git-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-git-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-git }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-git {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hacker-news {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-y-combinator-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-y-combinator-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hacker-news }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-yc-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-yc-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hacker-news }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-tencent-weibo {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-qq {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-weixin {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-wechat {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-wechat { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-weixin }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-send { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-paper-plane }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-paper-plane-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-paper-plane-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-paper-plane }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-send-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-send-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-paper-plane }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-circle-thin {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-circle-thin { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-header { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-heading }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-futbol-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-futbol-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-futbol }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-soccer-ball-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-soccer-ball-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-futbol }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-slideshare {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-twitch {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-yelp {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-newspaper-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-newspaper-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-newspaper }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-paypal {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-google-wallet {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cc-visa {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cc-mastercard {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cc-discover {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cc-amex {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cc-paypal {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cc-stripe {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bell-slash-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bell-slash-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-bell-slash }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-trash { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-trash-can }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-copyright {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-eyedropper { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-eye-dropper }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-area-chart { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-chart-area }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pie-chart { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-chart-pie }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-line-chart { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-chart-line }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-lastfm {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-lastfm-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-lastfm-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-lastfm }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-ioxhost {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-angellist {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cc {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cc { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-closed-captioning }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-ils { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-shekel-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-shekel { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-shekel-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sheqel { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-shekel-sign }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-buysellads {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-connectdevelop {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-dashcube {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-forumbee {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-leanpub {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sellsy {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-shirtsinbulk {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-simplybuilt {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-skyatlas {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-diamond {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-diamond { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-gem }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-transgender { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-mars-and-venus }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-intersex { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-mars-and-venus }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-transgender-alt { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-transgender }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-facebook-official {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-facebook-official { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-facebook }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pinterest-p {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-whatsapp {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hotel { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-bed }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-viacoin {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-medium {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-y-combinator {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-yc {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-yc { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-y-combinator }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-optin-monster {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-opencart {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-expeditedssl {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-battery-4 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-battery-full }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-battery { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-battery-full }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-battery-3 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-battery-three-quarters }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-battery-2 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-battery-half }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-battery-1 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-battery-quarter }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-battery-0 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-battery-empty }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-object-group {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-object-ungroup {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sticky-note-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-sticky-note-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-note-sticky }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cc-jcb {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-cc-diners-club {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-clone {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hourglass-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hourglass }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hourglass-1 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hourglass-start }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hourglass-2 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hourglass-half }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hourglass-3 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hourglass-end }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-rock-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-rock-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand-back-fist }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-grab-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-grab-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand-back-fist }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-paper-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-paper-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-stop-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-stop-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-scissors-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-scissors-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand-scissors }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-lizard-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-lizard-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand-lizard }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-spock-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-spock-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand-spock }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-pointer-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-pointer-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand-pointer }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-peace-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hand-peace-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hand-peace }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-registered {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-creative-commons {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-gg {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-gg-circle {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-odnoklassniki {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-odnoklassniki-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-odnoklassniki-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-odnoklassniki }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-get-pocket {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-wikipedia-w {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-safari {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-chrome {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-firefox {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-opera {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-internet-explorer {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-television { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-tv }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-contao {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-500px {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-amazon {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-calendar-plus-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-calendar-plus-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-calendar-plus }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-calendar-minus-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-calendar-minus-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-calendar-minus }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-calendar-times-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-calendar-times-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-calendar-xmark }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-calendar-check-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-calendar-check-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-calendar-check }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-map-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-map-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-map }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-commenting { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-comment-dots }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-commenting-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-commenting-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-comment-dots }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-houzz {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-vimeo {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-vimeo { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-vimeo-v }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-black-tie {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-fonticons {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-reddit-alien {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-edge {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-credit-card-alt { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-credit-card }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-codiepie {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-modx {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-fort-awesome {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-usb {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-product-hunt {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-mixcloud {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-scribd {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pause-circle-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pause-circle-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-pause }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-stop-circle-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-stop-circle-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-stop }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bluetooth {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bluetooth-b {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-gitlab {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-wpbeginner {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-wpforms {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-envira {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-wheelchair-alt {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-wheelchair-alt { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-accessible-icon }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-question-circle-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-question-circle-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-question }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-volume-control-phone { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-phone-volume }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-asl-interpreting { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hands-asl-interpreting }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-deafness { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-ear-deaf }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-hard-of-hearing { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-ear-deaf }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-glide {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-glide-g {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-signing { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-hands }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-viadeo {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-viadeo-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-viadeo-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-viadeo }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-snapchat {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-snapchat-ghost {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-snapchat-ghost { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-snapchat }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-snapchat-square {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-snapchat-square { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-square-snapchat }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-pied-piper {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-first-order {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-yoast {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-themeisle {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-google-plus-official {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-google-plus-official { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-google-plus }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-google-plus-circle {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-google-plus-circle { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-google-plus }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-font-awesome {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-fa {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-fa { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-font-awesome }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-handshake-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-handshake-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-handshake }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-envelope-open-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-envelope-open-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-envelope-open }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-linode {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-address-book-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-address-book-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-address-book }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-vcard { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-address-card }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-address-card-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-address-card-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-address-card }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-vcard-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-vcard-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-address-card }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-user-circle-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-user-circle-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-circle-user }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-user-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-user-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-user }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-id-badge {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-drivers-license { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-id-card }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-id-card-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-id-card-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-id-card }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-drivers-license-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-drivers-license-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-id-card }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-quora {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-free-code-camp {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-telegram {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-thermometer-4 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-temperature-full }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-thermometer { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-temperature-full }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-thermometer-3 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-temperature-three-quarters }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-thermometer-2 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-temperature-half }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-thermometer-1 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-temperature-quarter }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-thermometer-0 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-temperature-empty }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bathtub { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-bath }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-s15 { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-bath }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-window-maximize {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-window-restore {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-times-rectangle { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-rectangle-xmark }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-window-close-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-window-close-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-rectangle-xmark }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-times-rectangle-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-times-rectangle-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-rectangle-xmark }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-bandcamp {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-grav {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-etsy {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-imdb {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-ravelry {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-eercast {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-eercast { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-sellcast }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-snowflake-o {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-snowflake-o { #{v.$fa-icon-property}: unquote("\"#{ v.$fa-var-snowflake }\""); }
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-superpowers {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-wpexplorer {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+.#{v.$fa-css-prefix}.#{v.$fa-css-prefix}-meetup {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}

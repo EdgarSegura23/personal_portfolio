@@ -9,29 +9,27 @@ const sass = gulpSass(dartSass);
 
 //TODO: Function Definition: 
 
-//* Copy Boxicons CSS
-export function copyBoxiconsCss(done) {
-    src("node_modules/boxicons/css/boxicons.min.css")
-        .pipe( dest('build/css') );
-    done();
-}
-
 //* CSS Function definition
 export function css( done ) {
-    src('src/scss/app.scss')
-        .pipe( sass().on('error', sass.logError) )
+    src('src/scss/app.scss', {sourcemaps:true})
+        .pipe( sass({
+            outputStyle: 'compressed'
+        }).on('error', sass.logError) )
+        .pipe( dest('build/css', {sourcemaps:'.'}) )
+    done()
+}
+
+//compile fontawesome css
+export function fontawesome(done){
+    src('src/scss/fontawesome.scss')
+        .pipe(sass({
+            outputStyle: 'compressed'
+        }).on('error', sass.logError))
         .pipe( dest('build/css') )
     done()
 }
 
-//* Copy Boxicons js
-export function copyBoxiconsJs(done) {
-    src("node_modules/boxicons/dist/boxicons.js")
-        .pipe( terser() )
-        .pipe(dest("build/js"));
-    done();
-}
-
+//* JS Minify
 export function js(done) {
     src('src/js/app.js')
         .pipe( terser() )
@@ -39,10 +37,18 @@ export function js(done) {
     done();
 }
 
-//* dev Function definition
-export function dev() {
-    watch('src/scss/**/*.scss', css)
-    watch('src/js/**/*.js', js)
+//* fontawesome js minify
+export function fontawesomeJS(done){
+    src('src/js/all.js')
+        .pipe( terser() )
+        .pipe( dest('build/js') )
+    done()
 }
 
-export default series(copyBoxiconsCss, css, copyBoxiconsJs, js, dev);
+//* dev Function definition
+export function dev() {
+    watch('src/scss/**/*.scss', series(css, fontawesome))
+    watch('src/js/**/*.js', series(js, fontawesomeJS))
+}
+
+export default series(css, fontawesome, js, fontawesomeJS, dev);

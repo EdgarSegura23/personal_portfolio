@@ -1,0 +1,22 @@
+// bordered + pulled icons
+// -------------------------
+
+@use 'variables' as v;
+
+.#{v.$fa-css-prefix}-border {
+  border-color: var(--#{v.$fa-css-prefix}-border-color, #{v.$fa-border-color});
+  border-radius: var(--#{v.$fa-css-prefix}-border-radius, #{v.$fa-border-radius});
+  border-style: var(--#{v.$fa-css-prefix}-border-style, #{v.$fa-border-style});
+  border-width: var(--#{v.$fa-css-prefix}-border-width, #{v.$fa-border-width});
+  padding: var(--#{v.$fa-css-prefix}-border-padding, #{v.$fa-border-padding});
+}
+
+.#{v.$fa-css-prefix}-pull-left {
+  float: left;
+  margin-right: var(--#{v.$fa-css-prefix}-pull-margin, #{v.$fa-pull-margin}); 
+}
+
+.#{v.$fa-css-prefix}-pull-right {
+  float: right;
+  margin-left: var(--#{v.$fa-css-prefix}-pull-margin, #{v.$fa-pull-margin}); 
+}

@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/EdgarSegura23/personal_portfolio#readme",
   "devDependencies": {
-    "boxicons": "^2.1.4",
     "gulp": "^5.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-terser": "^2.1.0",
