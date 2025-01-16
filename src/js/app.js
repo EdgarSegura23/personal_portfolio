@@ -1,14 +1,18 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', ()=> {
-    sidebarTrigger();
+    smartphoneMenu();
 });
 
-function sidebarTrigger() {
-    const sidebar = document.querySelector('.sidebar');
-    const sidebarBtn = document.querySelector('.sidebar__button button');
+function smartphoneMenu(){
+    const sidebarNavegation = document.querySelector('.sidebar__navegation');
+    const menuBtn = document.querySelector('.menu-btn');
+    const btnIcon = document.querySelector(".icon-container");
 
-    sidebarBtn.addEventListener('click', ()=> {
-        sidebar.classList.toggle('sidebar-collapse');
-    });
+    if(window.innerWidth <= 428 ) {
+        menuBtn.addEventListener('click', ()=> {
+            btnIcon.classList.toggle('rotate');
+            sidebarNavegation.classList.toggle('active');
+        });
+    }
 }

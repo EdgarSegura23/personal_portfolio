@@ -12,50 +12,54 @@
     <title>Edgar Segura</title>
 </head>
 <body>
-    <aside class="sidebar sidebar-collapse">
-        <header class="header">
-            <div class="sidebar__button">
-                <button>
-                    <box-icon name='menu' color="#FFFFFF" size="2.369rem"></box-icon>
+
+    <aside class="sidebar">
+        <header class="sidebar__header">
+            <div class="header__button">
+                <button class="menu-btn">
+                    <span>Menu</span>
+                    <div class="icon-container">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </button>
+                <button class="sidebar-btn">
+                    <div class="icon-container">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                     <span>Menu</span>
                 </button>
             </div>
-            <div class="sidebar__photo">
-                <div class="photo-container">
-                    <img src="src/images/avatar.png" alt="Author's Avatar">
+            <div class="header__author-info">
+                <div class="author-info__photo-container">
+                    <img src="src/images/avatar.png" alt="Author's Photo">
                 </div>
+                <h3>Edgar Segura</h3>
             </div>
-            <h3 class="author-name">Edgar Segura</h3>
         </header>
         <nav class="sidebar__navegation">
-            <a href="#">
-                <box-icon type="solid" name="home" color="#FFFFFF" size="2.369rem"></box-icon>
+            <a href="#" class="navegation__item">
+                <i class="fa-solid fa-house"></i>
                 <span>Inicio</span>
             </a>
-            <a href="#">
-                <box-icon type="solid" name="id-card" color="#FFFFFF" size="2.369rem"></box-icon>
+            <a href="#" class="navegation__item">
+                <i class="fa-solid fa-id-card"></i>
                 <span>Sobre Mí</span>
             </a>
-            <a href="#">
-                <box-icon type="solid" name="briefcase" color="#FFFFFF" size="2.369rem"></box-icon>
+            <a href="#" class="navegation__item">
+                <i class="fa-solid fa-briefcase"></i>
                 <span>Proyectos</span>
             </a>
-            <a href="#">
-                <box-icon type="solid" name="conversation" color="#FFFFFF" size="2.369rem"></box-icon>
+            <a href="#" class="navegation__item">
+                <i class="fa-solid fa-comments"></i>
                 <span>Contacto</span>
             </a>
+
+            <div class="sidebar__social-networks">
+                <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
         </nav>
-        <div class="sidebar__social-media">
-            <a href="https://github.com/EdgarSegura23/" target="_blank">
-                <box-icon type="logo" name="github" color="#FFFFFF" size="2.369rem"></box-icon>
-            </a>
-            <a href="https://x.com/EdgarSegura94" target="_blank">
-                <box-icon type="logo" name="twitter" color="#FFFFFF" size="2.369rem"></box-icon>
-            </a>
-            <a href="https://www.instagram.com/edgarf2394/" target="_blank">
-                <box-icon type="logo" name="instagram-alt" color="#FFFFFF" size="2.369rem"></box-icon>
-            </a>
-        </div>
     </aside>
 
     <script src="build/js/all.js"></script>
